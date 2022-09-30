@@ -1,4 +1,4 @@
-module "vpc" {
+module "network" {
     source  = "app.terraform.io/DevOpsProduct/network/google"
     version = "~> 3.0"
 
