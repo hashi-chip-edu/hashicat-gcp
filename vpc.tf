@@ -1,6 +1,6 @@
 module "vpc" {
-    source  = "app.terraform.io/DevOpsProduct/network/google//modules/vpc"
-    version = "~> 2.0.0"
+    source  = "app.terraform.io/DevOpsProduct/network/google"
+    version = "~> 3.0"
 
     project_id   = "var.project"
     network_name = "gaurav-network"
